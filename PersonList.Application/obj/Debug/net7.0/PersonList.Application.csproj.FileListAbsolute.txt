@@ -1,0 +1,16 @@
+C:\PRJs\ASP.NET_CORE_PRJs\PRJs\PersonList\PersonList.Application\bin\Debug\net7.0\PersonList.Application.deps.json
+C:\PRJs\ASP.NET_CORE_PRJs\PRJs\PersonList\PersonList.Application\bin\Debug\net7.0\PersonList.Application.dll
+C:\PRJs\ASP.NET_CORE_PRJs\PRJs\PersonList\PersonList.Application\bin\Debug\net7.0\PersonList.Application.pdb
+C:\PRJs\ASP.NET_CORE_PRJs\PRJs\PersonList\PersonList.Application\bin\Debug\net7.0\PersonList.Domain.dll
+C:\PRJs\ASP.NET_CORE_PRJs\PRJs\PersonList\PersonList.Application\bin\Debug\net7.0\PersonList.Domain.pdb
+C:\PRJs\ASP.NET_CORE_PRJs\PRJs\PersonList\PersonList.Application\obj\Debug\net7.0\PersonList.Application.csproj.AssemblyReference.cache
+C:\PRJs\ASP.NET_CORE_PRJs\PRJs\PersonList\PersonList.Application\obj\Debug\net7.0\PersonList.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\PRJs\ASP.NET_CORE_PRJs\PRJs\PersonList\PersonList.Application\obj\Debug\net7.0\PersonList.Application.AssemblyInfoInputs.cache
+C:\PRJs\ASP.NET_CORE_PRJs\PRJs\PersonList\PersonList.Application\obj\Debug\net7.0\PersonList.Application.AssemblyInfo.cs
+C:\PRJs\ASP.NET_CORE_PRJs\PRJs\PersonList\PersonList.Application\obj\Debug\net7.0\PersonList.Application.csproj.CoreCompileInputs.cache
+C:\PRJs\ASP.NET_CORE_PRJs\PRJs\PersonList\PersonList.Application\obj\Debug\net7.0\PersonList.Application.sourcelink.json
+C:\PRJs\ASP.NET_CORE_PRJs\PRJs\PersonList\PersonList.Application\obj\Debug\net7.0\PersonList.Application.csproj.CopyComplete
+C:\PRJs\ASP.NET_CORE_PRJs\PRJs\PersonList\PersonList.Application\obj\Debug\net7.0\PersonList.Application.dll
+C:\PRJs\ASP.NET_CORE_PRJs\PRJs\PersonList\PersonList.Application\obj\Debug\net7.0\refint\PersonList.Application.dll
+C:\PRJs\ASP.NET_CORE_PRJs\PRJs\PersonList\PersonList.Application\obj\Debug\net7.0\PersonList.Application.pdb
+C:\PRJs\ASP.NET_CORE_PRJs\PRJs\PersonList\PersonList.Application\obj\Debug\net7.0\ref\PersonList.Application.dll
