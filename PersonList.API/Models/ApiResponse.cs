@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace PersonList.API.Models
+namespace PersonList.Application.Models
 {
     public class ApiResponse
     {

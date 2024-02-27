@@ -1,0 +1,53 @@
+
+  [
+    {
+      "firstName": "Nikodem",
+      "lastname": "Wspaniały",
+      "age": 21,
+      "contact": {
+        "phoneNumber": "123123123",
+        "adress": "street 45",
+        "email": "emial@gmial.com"
+      }
+    },
+    {
+      "firstName": "Kamil",
+      "lastname": "Nowak",
+      "age": 38,
+      "contact": {
+        "phoneNumber": "345345345",
+        "adress": "ulica 2/4",
+        "email": "emial@o2.pl"
+      }
+    },
+    {
+      "firstName": "Wojciech",
+      "lastname": "Kowalski",
+      "age": 14,
+      "contact": {
+        "phoneNumber": "789789345",
+        "adress": "pokątna 1",
+        "email": "email@gmail.com"
+      }
+    },
+    {
+      "firstName": "Sebastian",
+      "lastname": "Zima",
+      "age": 60,
+      "contact": {
+        "phoneNumber": "przekątna 2",
+        "adress": "adres 12",
+        "email": "seba@gmail.com"
+      }
+    },
+    {
+      "firstName": "Anna",
+      "lastname": "Panna",
+      "age": 20,
+      "contact": {
+        "phoneNumber": "123123789",
+        "adress": "WarnerBrosStreet 43/100",
+        "email": "annapanna@gmail.com"
+      }
+    }
+  ]

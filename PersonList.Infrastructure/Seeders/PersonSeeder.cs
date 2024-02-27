@@ -6,6 +6,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.Json;
+using Newtonsoft.Json;
+using Microsoft.Extensions.Configuration;
 
 namespace PersonList.Infrastructure.Seeders
 {
@@ -25,20 +28,14 @@ namespace PersonList.Infrastructure.Seeders
             }
             if (!dbContext.persons.Any())
             {
-                //some action for seed
-                var person = new Person()
+                string filePath = "C:\\PRJs\\ASP.NET_CORE_PRJs\\PRJs\\PersonList\\PersonList.Infrastructure\\Seeders\\people.json";
+                var json = File.ReadAllText(filePath);
+                var personList = JsonConvert.DeserializeObject<List<Person>>(json);
+                if(personList != null && personList.Any())
+                foreach(var person in personList)
                 {
-                    firstName = "Nikodem",
-                    lastname = "Nazwisko",
-                    age = 21,
-                    contact = new Contact()
-                    {
-                        adress = "ulica 123",
-                        email = "exapmle@gmail.com",
-                        phoneNumber = "1234567890",
-                    }
-                };
-                await dbContext.persons.AddAsync(person);
+                        await dbContext.persons.AddAsync(person);
+                }
                 await dbContext.SaveChangesAsync();
             }
         }

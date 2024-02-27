@@ -30,6 +30,20 @@ namespace PersonList.Infrastructure.Repositories
             throw new Exception("Cant Add new Person to database");
         }
 
+        public async Task DeletePersonById(int id)
+        {
+            var personToDelete =await  dbContext.persons.FirstOrDefaultAsync(x => x.id == id);
+            if(personToDelete == null)
+            {
+                throw new Exception("Can not find person with that id");
+            }
+            else
+            {
+                dbContext.persons.Remove(personToDelete);
+                await dbContext.SaveChangesAsync();
+            }
+        }
+
         public IEnumerable<Person> GetAllPersons()
         {
             return dbContext.persons;
@@ -43,6 +57,11 @@ namespace PersonList.Infrastructure.Repositories
                 throw new Exception("person witch that id was not found");
             }
             return person;
+        }
+
+        public async Task SaveChangesAsync()
+        {
+            await dbContext.SaveChangesAsync();
         }
     }
 }

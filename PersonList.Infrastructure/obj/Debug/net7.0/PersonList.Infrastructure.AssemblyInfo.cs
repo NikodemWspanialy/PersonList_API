@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PersonList.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e78f68aa9af571d4d281ac24490c8f609597a218")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+220cfa4d60004bd3f6c40016cb3d0fd110143683")]
 [assembly: System.Reflection.AssemblyProductAttribute("PersonList.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PersonList.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

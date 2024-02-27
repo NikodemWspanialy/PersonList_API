@@ -12,5 +12,10 @@ namespace PersonList.Domain.Interfaces
         IEnumerable<Person> GetAllPersons();
         Task<Person> GetPersonById(int id);
         Task<int> AddPerson(Person p);
+
+        Task DeletePersonById(int id);
+
+        Task SaveChangesAsync();
+
     }
 }

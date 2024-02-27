@@ -88,3 +88,4 @@ C:\PRJs\ASP.NET_CORE_PRJs\PRJs\PersonList\PersonList.API\obj\Debug\net7.0\ref\Pe
 C:\PRJs\ASP.NET_CORE_PRJs\PRJs\PersonList\PersonList.API\bin\Debug\net7.0\FluentValidation.dll
 C:\PRJs\ASP.NET_CORE_PRJs\PRJs\PersonList\PersonList.API\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
 C:\PRJs\ASP.NET_CORE_PRJs\PRJs\PersonList\PersonList.API\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\PRJs\ASP.NET_CORE_PRJs\PRJs\PersonList\PersonList.API\bin\Debug\net7.0\Newtonsoft.Json.dll
